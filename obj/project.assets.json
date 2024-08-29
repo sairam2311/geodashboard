@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "geodashboard.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "geodashboard.Models": "1.0.0",
+          "geodashboard.Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/geodashboard.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/geodashboard.DataAccess.dll": {}
+        }
+      },
+      "geodashboard.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/geodashboard.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/geodashboard.Models.dll": {}
+        }
+      },
+      "geodashboard.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/geodashboard.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/geodashboard.Utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "geodashboard.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../geodashboard.DataAccess/geodashboard.DataAccess.csproj",
+      "msbuildProject": "../geodashboard.DataAccess/geodashboard.DataAccess.csproj"
+    },
+    "geodashboard.Models/1.0.0": {
+      "type": "project",
+      "path": "../geodashboard.Models/geodashboard.Models.csproj",
+      "msbuildProject": "../geodashboard.Models/geodashboard.Models.csproj"
+    },
+    "geodashboard.Utility/1.0.0": {
+      "type": "project",
+      "path": "../geodashboard.Utility/geodashboard.Utility.csproj",
+      "msbuildProject": "../geodashboard.Utility/geodashboard.Utility.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "geodashboard.DataAccess >= 1.0.0",
+      "geodashboard.Models >= 1.0.0",
+      "geodashboard.Utility >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sairam saidugari\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sairam saidugari\\source\\repos\\geodashboard\\geodashboard.csproj",
+      "projectName": "geodashboard",
+      "projectPath": "C:\\Users\\sairam saidugari\\source\\repos\\geodashboard\\geodashboard.csproj",
+      "packagesPath": "C:\\Users\\sairam saidugari\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sairam saidugari\\source\\repos\\geodashboard\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\sairam saidugari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\sairam saidugari\\source\\repos\\geodashboard.DataAccess\\geodashboard.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\sairam saidugari\\source\\repos\\geodashboard.DataAccess\\geodashboard.DataAccess.csproj"
+            },
+            "C:\\Users\\sairam saidugari\\source\\repos\\geodashboard.Models\\geodashboard.Models.csproj": {
+              "projectPath": "C:\\Users\\sairam saidugari\\source\\repos\\geodashboard.Models\\geodashboard.Models.csproj"
+            },
+            "C:\\Users\\sairam saidugari\\source\\repos\\geodashboard.Utility\\geodashboard.Utility.csproj": {
+              "projectPath": "C:\\Users\\sairam saidugari\\source\\repos\\geodashboard.Utility\\geodashboard.Utility.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
